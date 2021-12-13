@@ -7,7 +7,7 @@ export default function () {
     group('Get Main Page', function () { //
         sendGet();
     });
-    sleep(1);
+    // sleep(1);
     group('Add Post', function () {
         sendPost();
         sendGet();
